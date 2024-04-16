@@ -18,7 +18,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "build": "yarn run lint && babel src -d lib --ignore='*-test.js'",
+    "build": "npm run lint && babel src -d lib --ignore='*-test.js'",
     "example": "node example/server.js",
     "lint": "eslint --ext .js ./",
     "test": "karma start"
