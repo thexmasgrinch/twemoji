@@ -1,6 +1,7 @@
 # react-twemoji
 A simple [React](https://facebook.github.io/react/) wrapper for [Twemoji](https://github.com/twitter/twemoji).
 It calls twemoji.parse() to convert emoji characters to Twemoji images.
+Updated to use @twemoji/api due to dead CDN.
 
 ## Install
 
