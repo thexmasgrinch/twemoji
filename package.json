@@ -14,11 +14,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/thexmasgrinch/twemoji"
+    "url": "https://github.com/zxmys/react-twemoji"
   },
   "license": "MIT",
   "scripts": {
-    "build": "npm run lint && babel src -d lib --ignore='*-test.js'",
+    "build": "yarn run lint && babel src -d lib --ignore='*-test.js'",
     "example": "node example/server.js",
     "lint": "eslint --ext .js ./",
     "test": "karma start"
